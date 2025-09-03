@@ -1475,3 +1475,127 @@
       params:
         variation: 0.05
         volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: IvoPlushie
+  name: Kind Detective Plushie
+  description: He can't stop tipping his hat, and he is holding a pink bat!
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: ivo
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/bottle_open1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/bottle_open1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/glass_break1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/bottle_open1.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: KazzPlushie
+  name: Musician Raccoon Plushie
+  description: Smells like berries and vodka.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: kazz
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/raccoon_chatter.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/raccoon_chatter.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/raccoon_chatter.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Animals/raccoon_chatter.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: NovaPlushie
+  name: Sleepy Harpy Plushie
+  description: This plushie gives of a sense of innate sleepiness, it's soundbox emits a faint snore.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: nova
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/beep1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: OlmPlushie
+  name: Goblin Plushie
+  description: Undoubtedly the scariest goblin around
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: olm
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/beep1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/beep1.ogg
+      params:
+        variation: 0.05
+        volume: 4
