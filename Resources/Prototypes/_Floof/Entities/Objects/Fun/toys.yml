@@ -1582,20 +1582,82 @@
     delay: 3.0
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/Effects/beep1.ogg
+      path: /Audio/Items/Toys/toysqueak1.ogg
       params:
         volume: 2
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/Effects/beep1.ogg
+      path: /Audio/Items/Toys/toysqueak1.ogg
       params:
         volume: 2
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Effects/beep1.ogg
+      path: /Audio/Items/Toys/toysqueak1.ogg
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Effects/beep1.ogg
+      path: /Audio/Items/Toys/toysqueak1.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: StrawPlushie
+  name: Mutant Plushie
+  description: Fluffy and soft, but there's a bit of sand on it.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: straw
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: WafflePlushie
+  name: Two-Tailed Command Plushie
+  description: Fluffy and soft, You are getting this plushie, whether you like it or not!
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: waffle
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
       params:
         variation: 0.05
         volume: 4
