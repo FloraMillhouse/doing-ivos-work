@@ -1351,3 +1351,127 @@
       params:
         variation: 0.05
         volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: DirePlushie #The temptation to make a dire dire docks refference is melting me btw
+  name: Security Shadekin
+  description: A depiction of a certain sweet-hearted Shadekin in a corpsman's uniform. It's very fluffy.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: dire
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Weapons/flash.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Weapons/flash.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Weapons/flash.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/flash.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: DyroPlushie
+  name: Medical Moth Plushie
+  description: Smells like maple syrup.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: dyro
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: HonPlushie
+  name: Cheerful Quadborg Plushie
+  description: Bedside manner not included.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: hon
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/IPC/whirr3.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/IPC/whirr3.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/IPC/whirr3.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/IPC/whirr3.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: IroPlushie
+  name: Vampiric Vulpkanin Plushie
+  description: He looks so classy in his little suit.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: iro
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/DeltaV/Vulpkanin/dog_bark1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/DeltaV/Vulpkanin/dog_bark1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/DeltaV/Vulpkanin/dog_bark1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/DeltaV/Vulpkanin/dog_bark1.ogg
+      params:
+        variation: 0.05
+        volume: 4
