@@ -348,7 +348,7 @@
       params:
         variation: 0.1
         volume: 4
-        
+
 - type: entity
   parent: PlushieHuman
   id: PlushieAvaliHOP
@@ -379,7 +379,7 @@
       params:
         variation: 0.05
         volume: 4
-        
+
 - type: entity
   parent: PlushieHuman
   id: PlushieSlimeBartender
@@ -567,7 +567,7 @@
       params:
         variation: 0.05
         volume: 4
-        
+
 - type: entity
   parent: PlushieHuman
   id: PlushieSillyResomi
@@ -598,13 +598,13 @@
       params:
         variation: 0.05
         volume: 4
-                
+
 
 - type: entity
   parent: PlushieHuman
-  id: PlushieAvianMysta 
+  id: PlushieAvianMysta
   name: Avian mysta plushie
-  description: A fluffy bird plushie that feels like it's slightly radiating glimmer.. Maybe you're just imagining it. 
+  description: A fluffy bird plushie that feels like it's slightly radiating glimmer.. Maybe you're just imagining it.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
@@ -635,7 +635,7 @@
   parent: [PlushieHuman, BaseFleshlight]
   id: PlushieBunnyStressRelief
   name: Bunny stress relief plushie
-  description: This plushie smells sweet and feels super soft to the touch. Great for relieving stress in every way. 
+  description: This plushie smells sweet and feels super soft to the touch. Great for relieving stress in every way.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
@@ -1196,3 +1196,158 @@
   - type: Reflect
     reflectProb: .01 # joke chance of 1% to reflect
     spread: 75
+
+- type: entity
+  parent: BasePlushie
+  id: AgnesPlushie
+  name: Mad Scientist Plushie
+  description: Smells of oil and harsh chemicals.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: agnes
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Machines/scan_finish.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Machines/scan_finish.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Machines/scan_finish.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Machines/scan_finish.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: AsiPlushie
+  name: Not A Spider Plushie
+  description: Everything but the flower crown is removable.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: asi
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/snake_hiss.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/snake_hiss.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/snake_hiss.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Animals/snake_hiss.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: BeshPlushie
+  name: NT Unathi Plushie
+  description: Comes with real paperwork!
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: besh
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/SimpleStation14/Items/Handling/paper_pickup.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/SimpleStation14/Items/Handling/paper_pickup.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/SimpleStation14/Items/Handling/paper_drop.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/SimpleStation14/Items/Handling/paper_pickup.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: CinPlushie
+  name: Happy Paramedic Plushie
+  description: There's a tag on the back, it reads 'I love women'.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: cin
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/DeltaV/Voice/Talk/vulp.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/DeltaV/Voice/Talk/vulp.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/DeltaV/Voice/Talk/vulp.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/DeltaV/Voice/Talk/vulp.ogg
+      params:
+        variation: 0.05
+        volume: 4
+
+- type: entity
+  parent: BasePlushie
+  id: CourPlushie
+  name: Brave Captain Plushie
+  description: She's definitely not cowardly.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: cour
+  - type: UseDelay
+    delay: 3.0
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Talk/speak_2.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Human/cry_female_1.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Human/femalescream_1.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Human/femalescream_3.ogg
+      params:
+        variation: 0.05
+        volume: 4
