@@ -393,13 +393,13 @@
       - id: PlushieSlimeTider
         prob: 0.50
         orGroup: Prize
-      - id: PlushieKitsuneCaptain 
+      - id: PlushieKitsuneCaptain
         prob: 0.50
         orGroup: Prize
       - id: PlushieSapphicHarpyPlushie
         prob: 0.50
         orGroup: Prize
-      - id: PlushieRatLogisticsOfficer 
+      - id: PlushieRatLogisticsOfficer
         prob: 0.50
         orGroup: Prize
       - id: PlushieBunnyChiefMedicalOfficer
@@ -417,16 +417,16 @@
       - id: PlushieKoboldCefJustice
         prob: 0.50
         orGroup: Prize
-      - id: PlushieAvaliHOP 
+      - id: PlushieAvaliHOP
         prob: 0.50
         orGroup: Prize
-      - id: PlushieSlimeBartender 
+      - id: PlushieSlimeBartender
         prob: 0.50
         orGroup: Prize
-      - id: PlushieGrumpyQuartermaster 
+      - id: PlushieGrumpyQuartermaster
         prob: 0.50
         orGroup: Prize
-      - id: PlushieHardcoreDj 
+      - id: PlushieHardcoreDj
         prob: 0.50
         orGroup: Prize
       - id: PlushieHos
@@ -470,6 +470,51 @@
         prob: 0.50
         orGroup: Prize
       - id: PlushieUrsineGal
+        prob: 0.50
+        orGroup: Prize
+      - id: AgnesPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: AsiPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: BeshPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: CinPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: CourPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: DirePlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: DyroPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: HonPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: IroPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: IvoPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: KazzPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: NovaPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: OlmPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: StrawPlushie
+        prob: 0.50
+        orGroup: Prize
+      - id: WafflePlushie
         prob: 0.50
         orGroup: Prize
 

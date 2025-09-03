@@ -686,7 +686,7 @@
   completetime: 0.1
   materials:
     PrizeTicket: 50
-    
+
 - type: latheRecipe
   id: PlushieSapphicHarpyPlushie
   result: PlushieSapphicHarpyPlushie
@@ -727,7 +727,7 @@
   completetime: 0.1
   materials:
     PrizeTicket: 50
-    
+
 - type: latheRecipe
   id: PlushieKoboldCefJustice
   result: PlushieKoboldCefJustice
@@ -735,7 +735,7 @@
   completetime: 0.1
   materials:
     PrizeTicket: 50
-    
+
 - type: latheRecipe
   id: PlushieSlimeBartender
   result: PlushieSlimeBartender
@@ -783,7 +783,7 @@
   completetime: 0.1
   materials:
     PrizeTicket: 50
-    
+
 - type: latheRecipe
   id: PlushieSillyResomi
   result: PlushieSillyResomi
@@ -1088,5 +1088,123 @@
   completetime: 0.1
   materials:
     PrizeTicket: 500
-    
 
+- type: latheRecipe
+  id: AgnesPlushie
+  result: AgnesPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: AsiPlushie
+  result: AsiPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: BeshPlushie
+  result: BeshPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: CinPlushie
+  result: CinPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: CourPlushie
+  result: CourPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: DirePlushie
+  result: DirePlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: DyroPlushie
+  result: DyroPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: HonPlushie
+  result: HonPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: IroPlushie
+  result: IroPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: IvoPlushie
+  result: IvoPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: KazzPlushie
+  result: KazzPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: NovaPlushie
+  result: NovaPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: OlmPlushie
+  result: OlmPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: StrawPlushie
+  result: StrawPlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100
+
+- type: latheRecipe
+  id: WafflePlushie
+  result: WafflePlushie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 100

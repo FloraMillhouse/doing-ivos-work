@@ -92,7 +92,7 @@
         # - PlushieNoticeableSecurityOfficer
         - PlushieHarpy
         - PlushieMort
-        - PlushieAvaliHOP 
+        - PlushieAvaliHOP
         - PlushieKoboldCefJustice
         - PlushieSlimeBartender
         - PlushieGrumpyQuartermaster
@@ -113,6 +113,21 @@
         - PlushieUnholyRed
         - PlushieDetectiveKitty
         - PlushieUrsineGal
+        - AgnesPlushie
+        - AsiPlushie
+        - BeshPlushie
+        - CinPlushie
+        - CourPlushie
+        - DirePlushie
+        - DyroPlushie
+        - HonPlushie
+        - IroPlushie
+        - IvoPlushie
+        - KazzPlushie
+        - NovaPlushie
+        - OlmPlushie
+        - StrawPlushie
+        - WafflePlushie
         # Floof Plushies End
       chance: 0.5
       offset: 0.2
