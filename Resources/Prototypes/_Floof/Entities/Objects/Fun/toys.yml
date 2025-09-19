@@ -1199,13 +1199,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: AgnesPlushie
+  id: MadScientistPlushie
   name: Mad Scientist Plushie
   description: Smells of oil and harsh chemicals.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: agnes
+    state: MadScientistPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1230,13 +1230,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: AsiPlushie
+  id: NotASpiderPlushie
   name: Not A Spider Plushie
   description: Everything but the flower crown is removable.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: asi
+    state: NotASpiderPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1261,13 +1261,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: BeshPlushie
+  id: NTUnathiPlushie
   name: NT Unathi Plushie
   description: Comes with real paperwork!
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: besh
+    state: NTUnathiPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1292,13 +1292,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: CinPlushie
+  id: HappyParamedicPlushie
   name: Happy Paramedic Plushie
   description: There's a tag on the back, it reads 'I love women'.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: cin
+    state: HappyParamedicPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1323,13 +1323,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: CourPlushie
+  id: BraveCaptainPlushie
   name: Brave Captain Plushie
   description: She's definitely not cowardly.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: cour
+    state: BraveCaptainPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1354,44 +1354,44 @@
 
 - type: entity
   parent: BasePlushie
-  id: DirePlushie #The temptation to make a dire dire docks refference is melting me btw
-  name: Security Shadekin
+  id: BlueCorpsmanShadekinPlushie #The temptation to make a dire dire docks refference is melting me btw
+  name: Blue Corpsman Shadekin Plushie
   description: A depiction of a certain sweet-hearted Shadekin in a corpsman's uniform. It's very fluffy.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: dire
+    state: BlueCorpsmanShadekinPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/Weapons/flash.ogg
+      path: /Audio/Voice/Shadowkin/mar.ogg
       params:
         volume: 2
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/Weapons/flash.ogg
+      path: /Audio/Voice/Shadowkin/mar.ogg
       params:
         volume: 2
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Weapons/flash.ogg
+      path: /Audio/Voice/Slime/slime_scream_m1.ogg
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Weapons/flash.ogg
+      path: /Audio/Voice/Slime/slime_scream_m1.ogg
       params:
         variation: 0.05
         volume: 4
 
 - type: entity
   parent: BasePlushie
-  id: DyroPlushie
+  id: MedicalMothPlushie
   name: Medical Moth Plushie
   description: Smells like maple syrup.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: dyro
+    state: MedicalMothPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1416,13 +1416,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: HonPlushie
+  id: CheerfulQuadborgPlushie
   name: Cheerful Quadborg Plushie
   description: Bedside manner not included.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: hon
+    state: CheerfulQuadborgPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1447,13 +1447,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: IroPlushie
+  id: VampiricVulpkaninPlushie
   name: Vampiric Vulpkanin Plushie
   description: He looks so classy in his little suit.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: iro
+    state: VampiricVulpkaninPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1478,13 +1478,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: IvoPlushie
+  id: KindDetectivePlushie
   name: Kind Detective Plushie
   description: He can't stop tipping his hat, and he is holding a pink bat!
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: ivo
+    state: KindDetectivePlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1509,13 +1509,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: KazzPlushie
+  id: MusicianRaccoonPlushie
   name: Musician Raccoon Plushie
   description: Smells like berries and vodka.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: kazz
+    state: MusicianRaccoonPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1540,13 +1540,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: NovaPlushie
+  id: SleepyHarpyPlushie
   name: Sleepy Harpy Plushie
   description: This plushie gives of a sense of innate sleepiness, it's soundbox emits a faint snore.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: nova
+    state: SleepyHarpyPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1571,13 +1571,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: OlmPlushie
+  id: GoblinPlushie
   name: Goblin Plushie
   description: Undoubtedly the scariest goblin around
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: olm
+    state: GoblinPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1602,13 +1602,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: StrawPlushie
+  id: MutantPlushie
   name: Mutant Plushie
   description: Fluffy and soft, but there's a bit of sand on it.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: straw
+    state: MutantPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1633,13 +1633,13 @@
 
 - type: entity
   parent: BasePlushie
-  id: WafflePlushie
+  id: TwoTailedCommandPlushie
   name: Two-Tailed Command Plushie
   description: Fluffy and soft, You are getting this plushie, whether you like it or not!
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: waffle
+    state: TwoTailedCommandPlushie
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
