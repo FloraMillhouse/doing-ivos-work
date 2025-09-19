@@ -2017,6 +2017,9 @@
       - OlmPlushie
       - StrawPlushie
       - WafflePlushie
+      - PlushieStealthyBird
+      - PlushieMedicalHarpy
+      - PlushieElectricIPC      
       #Floof Plushies - End
   - type: EmagLatheRecipes
     emagStaticRecipes:

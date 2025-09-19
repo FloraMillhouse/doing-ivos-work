@@ -128,7 +128,10 @@
         - GoblinPlushie
         - MutantPlushie
         - TwoTailedCommandPlushie
-        # Floof Plushies End
+        - PlushieStealthyBird
+        - PlushieMedicalHarpy
+        - PlushieElectricIPC
+        # Floof Plushies End 
       chance: 0.5
       offset: 0.2
 
