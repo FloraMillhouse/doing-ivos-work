@@ -472,49 +472,49 @@
       - id: PlushieUrsineGal
         prob: 0.50
         orGroup: Prize
-      - id: AgnesPlushie
+      - id: MadScientistPlushie
         prob: 0.50
         orGroup: Prize
-      - id: AsiPlushie
+      - id: NotASpiderPlushie
         prob: 0.50
         orGroup: Prize
-      - id: BeshPlushie
+      - id: NTUnathiPlushie
         prob: 0.50
         orGroup: Prize
-      - id: CinPlushie
+      - id: HappyParamedicPlushie
         prob: 0.50
         orGroup: Prize
-      - id: CourPlushie
+      - id: BraveCaptainPlushie
         prob: 0.50
         orGroup: Prize
-      - id: DirePlushie
+      - id: BlueCorpsmanShadekinPlushie
         prob: 0.50
         orGroup: Prize
-      - id: DyroPlushie
+      - id: MedicalMothPlushie
         prob: 0.50
         orGroup: Prize
-      - id: HonPlushie
+      - id: CheerfulQuadborgPlushie
         prob: 0.50
         orGroup: Prize
-      - id: IroPlushie
+      - id: VampiricVulpkaninPlushie
         prob: 0.50
         orGroup: Prize
-      - id: IvoPlushie
+      - id: KindDetectivePlushie
         prob: 0.50
         orGroup: Prize
-      - id: KazzPlushie
+      - id: MusicianRaccoonPlushie
         prob: 0.50
         orGroup: Prize
-      - id: NovaPlushie
+      - id: SleepyHarpyPlushie
         prob: 0.50
         orGroup: Prize
-      - id: OlmPlushie
+      - id: GoblinPlushie
         prob: 0.50
         orGroup: Prize
-      - id: StrawPlushie
+      - id: MutantPlushie
         prob: 0.50
         orGroup: Prize
-      - id: WafflePlushie
+      - id: TwoTailedCommandPlushie
         prob: 0.50
         orGroup: Prize
 
