@@ -1205,7 +1205,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: MadScientistPlushie
+    state: madscientist
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1236,7 +1236,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: NotASpiderPlushie
+    state: notaspider
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1267,7 +1267,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: NTUnathiPlushie
+    state: ntunathi
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1298,7 +1298,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: HappyParamedicPlushie
+    state: happyparamedic
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1329,7 +1329,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: BraveCaptainPlushie
+    state: bravecaptain
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1360,7 +1360,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: BlueCorpsmanShadekinPlushie
+    state: bluecorpsmanshadekin
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1391,7 +1391,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: MedicalMothPlushie
+    state: medicalmoth
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1422,7 +1422,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: CheerfulQuadborgPlushie
+    state: cheerfulquadborg
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1453,7 +1453,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: VampiricVulpkaninPlushie
+    state: vampiricvulpkanin
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1484,7 +1484,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: KindDetectivePlushie
+    state: kinddetective
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1515,7 +1515,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: MusicianRaccoonPlushie
+    state: musicianraccoon
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1546,7 +1546,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: SleepyHarpyPlushie
+    state: sleepyharpy
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1577,7 +1577,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: GoblinPlushie
+    state: goblin
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1608,7 +1608,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: MutantPlushie
+    state: mutant
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
@@ -1639,7 +1639,7 @@
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: TwoTailedCommandPlushie
+    state: twotailedcommand
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
