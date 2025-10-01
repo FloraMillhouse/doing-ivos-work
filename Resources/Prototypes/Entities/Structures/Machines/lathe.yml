@@ -1100,6 +1100,7 @@
       - HandLabeler
       - Defibrillator
       - HandheldHealthAnalyzer
+      - CandyBowl
       - ClothingHandsGlovesLatex
       - ClothingHandsGlovesNitrile
       - ClothingMaskSterile
@@ -1292,6 +1293,7 @@
     - WeaponProtoKineticAccelerator
     - MiningDrill
     - HandHeldMassScanner
+    - ClothingShoesBootsJump # Floof station
     # Shuttle building
     - ShuttleConsoleCircuitboard
     - RadarConsoleCircuitboard
@@ -2019,7 +2021,10 @@
       - TwoTailedCommandPlushie
       - PlushieStealthyBird
       - PlushieMedicalHarpy
-      - PlushieElectricIPC      
+      - PlushieElectricIPC
+      - PlushieCuddlyIPC
+      - PlushieFluffyVulpkanin
+      - PlushieSecurityTank
       #Floof Plushies - End
   - type: EmagLatheRecipes
     emagStaticRecipes:
